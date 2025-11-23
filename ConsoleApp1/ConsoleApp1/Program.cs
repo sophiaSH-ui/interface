@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApp1
+namespace lab_Interfaces
 {
     internal class Program
     {

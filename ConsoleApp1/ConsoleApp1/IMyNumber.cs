@@ -1,6 +1,6 @@
 using System;  // ²םעונפויס ח ÒÇ
 
-namespace LabInterfaces
+namespace lab_Interfaces
 {
     public interface IMyNumber<T> where T : IMyNumber<T>
     {
