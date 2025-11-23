@@ -1,11 +1,10 @@
 using System;
-using System.Collections.Generic;
 
 namespace lab_Interfaces
 {
-    public class Program
+    public static class Tests
     {
-        static void TestAPlusBSquare<T>(T a, T b) where T : IMyNumber<T>
+        public static void TestAPlusBSquare<T>(T a, T b) where T : IMyNumber<T>
         {
             Console.WriteLine("=== (a+b)^2 test, a = " + a + ", b = " + b + " ===");
 
@@ -15,10 +14,10 @@ namespace lab_Interfaces
             T left = aPlusB.Multiply(aPlusB);
             Console.WriteLine("(a + b)^2 = " + left);
 
-            T right = a.Multiply(a); 
-            T ab = a.Multiply(b);  
-            T twoab = ab.Add(ab);  
-            T b2 = b.Multiply(b);  
+            T right = a.Multiply(a);
+            T ab = a.Multiply(b);
+            T twoab = ab.Add(ab);
+            T b2 = b.Multiply(b);
 
             right = right.Add(twoab);
             right = right.Add(b2);
