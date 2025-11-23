@@ -1,4 +1,4 @@
-using System;  // ²םעונפויס ח ÒÇ
+using System;
 
 namespace lab_Interfaces
 {
