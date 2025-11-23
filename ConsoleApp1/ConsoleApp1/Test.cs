@@ -6,23 +6,25 @@ namespace lab_Interfaces
     {
         public static void TestAPlusBSquare<T>(T a, T b) where T : IMyNumber<T>
         {
-            Console.WriteLine("=== (a+b)^2 test, a = " + a + ", b = " + b + " ===");
-
+            Console.WriteLine("=== Starting testing (a+b)^2=a^2+2ab+b^2 with a = " + a + ", b = " + b + " ===");
             T aPlusB = a.Add(b);
-            Console.WriteLine("a + b = " + aPlusB);
-
-            T left = aPlusB.Multiply(aPlusB);
-            Console.WriteLine("(a + b)^2 = " + left);
-
-            T right = a.Multiply(a);
-            T ab = a.Multiply(b);
-            T twoab = ab.Add(ab);
-            T b2 = b.Multiply(b);
-
-            right = right.Add(twoab);
-            right = right.Add(b2);
-
-            Console.WriteLine("a^2 + 2ab + b^2 = " + right);
+            Console.WriteLine("a = " + a);
+            Console.WriteLine("b = " + b);
+            Console.WriteLine("(a + b) = " + aPlusB);
+            Console.WriteLine("(a+b)^2 = " + aPlusB.Multiply(aPlusB));
+            Console.WriteLine(" = = = ");
+            T curr = a.Multiply(a);
+            Console.WriteLine("a^2 = " + curr);
+            T wholeRightPart = curr;
+            curr = a.Multiply(b); // ab
+            curr = curr.Add(curr); // ab + ab = 2ab
+            Console.WriteLine("2*a*b = " + curr);
+            wholeRightPart = wholeRightPart.Add(curr);
+            curr = b.Multiply(b);
+            Console.WriteLine("b^2 = " + curr);
+            wholeRightPart = wholeRightPart.Add(curr);
+            Console.WriteLine("a^2+2ab+b^2 = " + wholeRightPart);
+            Console.WriteLine("=== Finishing testing (a+b)^2=a^2+2ab+b^2 with a = " + a + ", b = " + b + " ===");
             Console.WriteLine();
         }
     }
