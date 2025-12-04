@@ -2,7 +2,7 @@ using System;
 
 namespace lab_Interfaces
 {
-    public static class Tests
+    public static class Test
     {
         public static void TestAPlusBSquare<T>(T a, T b) where T : IMyNumber<T>
         {

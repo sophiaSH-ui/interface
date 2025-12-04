@@ -13,3 +13,6 @@ C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\refint\
 C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.gentestingplatformentrypointinputcache.cache
+C:\Users\Asus\Desktop\interface\ConsoleApp1\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genautoregisteredextensionsinputcache.cache
