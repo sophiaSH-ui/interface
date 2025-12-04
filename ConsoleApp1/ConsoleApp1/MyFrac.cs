@@ -5,8 +5,23 @@ namespace lab_Interfaces
 {
     public class MyFrac : IMyNumber<MyFrac>, IComparable<MyFrac>
     {
-        public BigInteger nom;  
-        public BigInteger denom; 
+        private BigInteger nom;
+        private BigInteger denom;
+
+        public BigInteger Nom
+        {
+            get
+            {
+                return nom;
+            }
+        }
+        public BigInteger Denom
+        {
+            get
+            {
+                return denom;
+            }
+        }
 
         public MyFrac(BigInteger nom, BigInteger denom)
         {
@@ -110,7 +125,7 @@ namespace lab_Interfaces
 
         public int CompareTo(MyFrac other)
         {
-            if (other == null) return 1;
+            if (other == null) return 0;
 
             BigInteger left = this.nom * other.denom;
             BigInteger right = other.nom * this.denom;

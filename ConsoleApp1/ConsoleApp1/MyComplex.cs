@@ -1,11 +1,27 @@
 using System;
+using System.Numerics;
 
 namespace lab_Interfaces
 {
     public class MyComplex : IMyNumber<MyComplex>
     {
-        public double re;
-        public double im;
+        private double re;
+        private double im;
+
+        public double Re
+        {
+            get
+            {
+                return re;
+            }
+        }
+        public double Im
+        {
+            get
+            {
+                return re;
+            }
+        }
 
         public MyComplex(double re, double im)
         {

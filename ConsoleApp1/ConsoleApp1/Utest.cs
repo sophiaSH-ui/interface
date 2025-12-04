@@ -12,8 +12,8 @@ namespace lab_Interfaces.Tests
         public void Frac_Constructor_ShouldSimplify()
         {
             var frac = new MyFrac(2, 4);
-            Assert.That(frac.nom, Is.EqualTo(new BigInteger(1)));
-            Assert.That(frac.denom, Is.EqualTo(new BigInteger(2)));
+            Assert.That(frac.Nom, Is.EqualTo(new BigInteger(1)));
+            Assert.That(frac.Denom, Is.EqualTo(new BigInteger(2)));
         }
 
         [Test]
@@ -66,8 +66,8 @@ namespace lab_Interfaces.Tests
             var a = new MyComplex(1, 2);
             var b = new MyComplex(3, 4);
             var result = a.Add(b);
-            Assert.That(result.re, Is.EqualTo(4));
-            Assert.That(result.im, Is.EqualTo(6));
+            Assert.That(result.Re, Is.EqualTo(4));
+            Assert.That(result.Im, Is.EqualTo(6));
         }
 
         [Test]
@@ -76,16 +76,16 @@ namespace lab_Interfaces.Tests
             var a = new MyComplex(1, 1);
             var b = new MyComplex(1, 1);
             var result = a.Multiply(b);
-            Assert.That(result.re, Is.EqualTo(0).Within(0.001));
-            Assert.That(result.im, Is.EqualTo(2).Within(0.001));
+            Assert.That(result.Re, Is.EqualTo(0).Within(0.001));
+            Assert.That(result.Im, Is.EqualTo(2).Within(0.001));
         }
 
         [Test]
         public void Complex_StringParsing_ShouldWork()
         {
             var c = new MyComplex("3+4i");
-            Assert.That(c.re, Is.EqualTo(3));
-            Assert.That(c.im, Is.EqualTo(4));
+            Assert.That(c.Re, Is.EqualTo(3));
+            Assert.That(c.Im, Is.EqualTo(4));
         }
     }
 }

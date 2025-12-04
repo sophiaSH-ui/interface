@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\utest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +19,16 @@
       "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\myfrac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\mycomplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\mycomplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\imynumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\imynumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\mycomplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\mycomplex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|c:\\users\\asus\\desktop\\interface\\consoleapp1\\consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{116682F5-0738-4EC4-823B-8BFADB87CE57}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\consoleapp1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ConsoleApp1.csproj",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
               "RelativeDocumentMoniker": "ConsoleApp1\\ConsoleApp1.csproj",
@@ -50,8 +50,7 @@
               "RelativeToolTip": "ConsoleApp1\\ConsoleApp1.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-04T09:54:29.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T09:54:29.764Z"
             },
             {
               "$type": "Document",
@@ -61,46 +60,46 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Utest.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\Utest.cs",
               "RelativeToolTip": "ConsoleApp1\\Utest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-04T09:51:14.201Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Test.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\Test.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Test.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\Test.cs",
               "RelativeToolTip": "ConsoleApp1\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwBsAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:39:02.528Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyFrac.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\MyFrac.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\MyFrac.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\MyFrac.cs",
               "RelativeToolTip": "ConsoleApp1\\MyFrac.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAUwIQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:38:43.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MyComplex.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\MyComplex.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\MyComplex.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\MyComplex.cs",
               "RelativeToolTip": "ConsoleApp1\\MyComplex.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAYwAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:38:08.824Z",
               "EditorCaption": ""
@@ -113,20 +112,20 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\IMyNumber.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\IMyNumber.cs",
               "RelativeToolTip": "ConsoleApp1\\IMyNumber.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T11:27:15.002Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "C:\\Users\\Asus\\Desktop\\interface\\ConsoleApp1\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-19T09:40:44.217Z",
               "EditorCaption": ""
