@@ -19,7 +19,7 @@ namespace lab_Interfaces
         {
             get
             {
-                return re;
+                return im;
             }
         }
 
