@@ -23,6 +23,11 @@ namespace lab_Interfaces
             }
         }
 
+        public MyFrac()
+        {
+            nom = 1;
+            denom = 1;
+        }
         public MyFrac(BigInteger nom, BigInteger denom)
         {
             if (denom == 0)

@@ -23,6 +23,11 @@ namespace lab_Interfaces
             }
         }
 
+        public MyComplex()
+        {
+            re = 0;
+            im = 0;
+        }
         public MyComplex(double re, double im)
         {
             this.re = re;
